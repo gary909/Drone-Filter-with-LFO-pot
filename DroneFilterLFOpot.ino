@@ -30,7 +30,7 @@
 resonance range 0-255, 255 is most resonant.*/
 //// Set up Freq Pot*************************************************************************
 const int freqPot = A5;    // select the input pin for the potentiometer
-AutoMap freqPotMap(0, 1023, 0, 1023);  // remap the atk pot to 4 seconds
+AutoMap freqPotMap(0, 1023, 0, 1500);  // remap the freq pot - figure out the correct range
 
 
 
